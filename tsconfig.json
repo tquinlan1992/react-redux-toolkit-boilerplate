@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": "./packages",
+    "paths": {
+      "components": ["components/src"],
+      "components/*": ["components/src/*"],
+      "react-redux-toolkit-example": ["react-redux-toolkit-example/src"],
+      "react-redux-toolkit-example/*": ["react-redux-toolkit-example/src/*"]
+    }
+  }
+}
